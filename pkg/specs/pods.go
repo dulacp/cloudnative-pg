@@ -66,7 +66,7 @@ const (
 
 	// PostgresContainerName is the name of the container executing PostgreSQL
 	// inside one Pod
-	PostgresContainerName = "postgres"
+	PostgresContainerName = "tcp-postgres"
 
 	// BootstrapControllerContainerName is the name of the container copying the bootstrap
 	// controller inside the Pod file system
